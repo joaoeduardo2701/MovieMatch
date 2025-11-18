@@ -46,6 +46,14 @@ public class UsuarioController {
         return ResponseEntity.ok(usuarioRepository.findAll());
     }
 
+    // 🎬 GET - Buscar usuário por ID
+    @GetMapping("/{id}")
+    public ResponseEntity<?> buscarUsuarioPorId(@PathVariable Long id) {
+        return usuarioRepository.findById(id)
+                .<ResponseEntity<?>>map(ResponseEntity::ok)
+                .orElseGet(() -> ResponseEntity.status(404).body("Usuário não encontrado"));
+    }
+
     // 🎬 DELETE - Deletar usuário por ID
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deletarUsuario(@PathVariable Long id) {

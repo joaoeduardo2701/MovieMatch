@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Filme</title>
+    <link rel="stylesheet" href="css/detalhes.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">MovieMatch</a>
+      <ul class="nav-links">
+        <li><a href="filmes.html">Filmes</a></li>
+        <li><a href="usuarios.html">Usuários</a></li>
+        <li><a href="login.html" id="logout">Sair</a></li>
+      </ul>
+    </div>
+  </nav>
+    <header>
+        <h1 id="tituloFilme">Carregando...</h1>
+        <button onclick="history.back()">Voltar</button>
+    </header>
+
+    <main class="container">
+        <section id="info-filme">
+            <img id="posterFilme" src="" alt="Poster do filme" />
+            <p id="descricaoFilme"></p>
+            <p><strong>Gênero:</strong> <span class="tag" id="generoFilme"></span></p>
+        </section>
+
+        <hr>
+
+        <section id="avaliacoes">
+            <h2>Avaliações</h2>
+            <div id="listaAvaliacoes">Carregando avaliações...</div>
+        </section>
+
+        <section id="nova-avaliacao">
+            <h2>Enviar nova avaliação</h2>
+
+            <form id="formAvaliacao">
+                <label>Estrelas (1 a 5):</label><br>
+                <input type="number" id="estrelas" min="1" max="5" required><br><br>
+
+                <label>Comentário:</label><br>
+                <textarea id="comentario" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar avaliação</button>
+            </form>
+
+            <p id="erroAvaliacao"></p>
+        </section>
+    </main>
+
+    <script type="module" src="js/detalhes.js"></script>
+
+</body>
+</html>

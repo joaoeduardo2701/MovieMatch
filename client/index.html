@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bem-vindo ao Movie Match</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">MovieMatch</a>
+      <ul class="nav-links">
+        <li><a href="filmes.html">Filmes</a></li>
+        <li><a href="usuarios.html">Usuários</a></li>
+        <li><a href="login.html" id="logout">Sair</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <h1>🎬 Bem-vindo, <span id="usuarioNome"></span>!</h1>
+    <h2>Seus filmes assistidos:</h2>
+    <div class="filmes-container" id="listaFilmes"></div>
+  </div>
+
+  <script>
+    const usuario = JSON.parse(localStorage.getItem("usuarioLogado"));
+    if (!usuario) {
+      window.location.href = "login.html"; // se não estiver logado, volta pro login
+    } else {
+      document.getElementById("usuarioNome").textContent = usuario.nome;
+
+      const lista = document.getElementById("listaFilmes");
+      usuario.filmesAssistidos.forEach(filme => {
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <img class="filme-card" src="${filme.imagemUrl}" width="120">
+          <p><strong>${filme.titulo}</strong> <span class="tag">${filme.genero}</span></p>
+        `;
+        lista.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>

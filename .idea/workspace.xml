@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70cdfba1-e3bb-4dfd-91cc-f43e8e7cf8a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/server/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/server/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/MovieMatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/MovieMatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/config/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/controller/AvaliacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/controller/AvaliacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/controller/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/controller/FilmeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/controller/GeneroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/controller/GeneroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/dto/AvaliacaoFilmeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/dto/AvaliacaoFilmeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/dto/UsuarioRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/dto/UsuarioRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/enums/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/enums/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/model/Avaliacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/model/Avaliacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/model/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/model/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/model/Genero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/repository/AvaliacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/repository/AvaliacaoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/repository/FilmeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/repository/FilmeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/service/FilmeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/service/FilmeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moviematch/moviematch/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/moviematch/moviematch/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/moviematch/moviematch/MovieMatchApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;joaoeduardo2701&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/joaoeduardo2701/MovieMatch.git&quot;,
+    &quot;accountId&quot;: &quot;0029665d-8438-4eb6-9f8c-5ff272e741f2&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="35B9RGYTfsN6FfJJjEKP9Wx3F8B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MovieMatchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneroTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;New/updated database configurations found&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MovieMatchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.MovieMatchApplication">
+    <configuration name="GeneroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="moviematch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moviematch.moviematch.genero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.moviematch.moviematch.genero" />
+      <option name="MAIN_CLASS_NAME" value="com.moviematch.moviematch.genero.GeneroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieMatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="moviematch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moviematch.moviematch.MovieMatchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GeneroTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70cdfba1-e3bb-4dfd-91cc-f43e8e7cf8a5" name="Changes" comment="" />
+      <created>1762572590741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762572590741</updated>
+      <workItem from="1762572594417" duration="2218000" />
+      <workItem from="1762984329355" duration="9604000" />
+      <workItem from="1763147137056" duration="4255000" />
+      <workItem from="1763438272579" duration="45000" />
+      <workItem from="1763438336272" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
